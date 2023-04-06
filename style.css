@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+ul{
+	margin: 0px;
+}
+body{
+	margin: 0 auto;
+	width: 420px;
+	height: 440px;
+	font-family: 'Inter', sans-serif;
+}
+.form{
+	width: 420px;
+	height: 440px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	position: absolute;
+	top: calc(50% - 220px);
+}
+.header-form{
+	height:60px;
+	background:linear-gradient(to top, #5272aa, #4767a1);
+	color: white;
+	font-size: 22px;
+	border-top-left-radius:5px ;
+	border-top-right-radius: 5px;
+	margin: 0;
+
+}
+.header-form li{
+	float: left;
+	padding: 15px 0;
+	text-align: left;
+	list-style-type: none;}
+#google{
+	height: 16px;
+	width: 16px;
+}
+#twitter{
+	width: 11px;
+	height: 15px;
+}
+#facebook{
+	width: 9px;
+	height: 16px;
+}
+#sign{
+	padding-right: 90px;
+}
+#lib{
+	border-left: 1px solid #3f5f95;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.section-form{
+	width: 420px;
+	height: 320px;
+}
+.email{
+	border: 1px solid grey;
+	border-radius: 5px;
+   width: 330px;
+	height: 55px;
+	font-size: 18px;
+	background: url(images/email.png) no-repeat 3px 1px;
+	background-position: 90% center;
+	padding-left: 25px;
+}
+.password{
+	border: 1px solid grey;
+	border-radius: 5px;
+   width: 330px;
+	height: 55px;
+	font-size: 18px;
+	background: url(images/locked.png) no-repeat 3px 1px;
+	background-position: 89.5% center;
+	padding-left: 25px;
+	margin-top: 20px;
+}
+#login{
+	border-radius: 5px;
+   width: 359px;
+	height: 55px;
+	font-size: 18px;
+	background-color: #f3595f;
+	color: white;
+	margin-top: 45px;
+	border: 0;
+}
+div form{
+	padding: 25px 15px 25px 29px;
+}
+.footer-form{
+	height: 60px;
+	width: 420px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #f3f3f3;
+	line-height: 4;
+}
+
